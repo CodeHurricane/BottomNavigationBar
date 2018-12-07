@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavigationBar">
+        <attr name="layoutId" format="reference"></attr>
+        <attr name="imageViewId" format="reference"></attr>
+        <attr name="textViewId" format="reference"></attr>
+        <attr name="textColorSelet" format="reference"></attr>
+        <attr name="textColorUnSelet" format="reference"></attr>
+        <attr name="vpId" format="reference"></attr>
+    </declare-styleable>
+</resources>

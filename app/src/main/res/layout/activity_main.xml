@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<android.support.v4.view.ViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="40dp"
+    />
+
+ <com.example.administrator.tablayoutdemo.viewpager.BottomNavigationBar
+     android:id="@+id/bottomNavigationBar"
+     android:layout_width="match_parent"
+     android:layout_height="49dp"
+     app:imageViewId="@id/iv_bottom_na"
+     app:layoutId="@layout/otc_bottom_navigation"
+     app:tabGravity="fill"
+     app:tabIndicatorHeight="0dp"
+     app:tabMode="fixed"
+     app:textColorSelet="@color/colorAccent"
+     app:textColorUnSelet="@color/colorPrimary"
+     app:textViewId="@id/tv_bottom_na"
+     app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
